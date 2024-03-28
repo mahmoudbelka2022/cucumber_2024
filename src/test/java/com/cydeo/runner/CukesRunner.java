@@ -17,7 +17,7 @@ import org.junit.runner.*;
         features = "src/test/resources/features",
         glue = "com/cydeo/step_definitions",
         dryRun = true,
-        tags = "@excel",
+        tags = "@smoke",
         publish = true
 )
 public class CukesRunner {
